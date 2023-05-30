@@ -38,7 +38,7 @@
   <!-- navbar -->
   <nav id="mainNav" class="navbar navbar-expand-lg navbar-sticky navbar-dark">
     <div class="container">
-      <a href="./index.html" class="navbar-brand"><img src="./assets/images/Logo BS-WOOD.png" alt="Logo"></a>
+      <a href="./index.html" class="navbar-brand"><img src="./assets/images/BS-WOOD logo definitivo.png" alt="Logo"></a>
   
       <!-- primary -->
       <div class="collapse navbar-collapse" id="navbar" data-bs-parent="#mainNav">
@@ -96,7 +96,7 @@
         <div class="row mt-10">
           <div class="bottom-overlap" data-aos="fade-up" data-aos-delay="100">
             <figure class="media media-video equal equal-16-9" data-bp='{"ytSrc": "idiZzUy2qH8"}'>
-              <span style="background-image: url('./assets/images/foto\ temporanea\ di\ classe.jpg')" id="videoIntro">
+              <span style="background-image: url('./assets/images/Foto\ di\ classe.JPG')" id="videoIntro">
               </span>
             </figure>
           </div>
@@ -321,30 +321,35 @@
     <!-- contact us -->
     <section class="py-7 py-xl-7 bg-black inverted" id="contactForm">
       <section class="py-7 py-xl-7">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8 col-xl-6">
-              <h2 class="fw-bold mb-6">Contattaci per ottenere maggiori informazioni sui nostri prodotti</h2>
-              <div class="row g-3">
-                <div class="col-md-6">
-                  <label for="yourName" class="form-label">Nome</label>
-                  <input type="text" class="form-control" id="yourName" placeholder="Nome">
-                </div>
-                <div class="col-md-6">
-                  <label for="yourSurname" class="form-label">Cognome</label>
-                  <input type="text" class="form-control" id="yourCompany" placeholder="Cognome">
-                </div>
-                <div class="col-md-12">
-                  <label for="yourMessage" class="form-label">Messaggio</label>
-                  <textarea class="form-control" id="yourMessage" rows="3" placeholder="Scrivi qui il tuo messaggio..."></textarea>
-                </div>
-                <div class="col-md-8 mt-4">
-                  <a href="" class="btn btn-lg btn-primary btn-with-icon rounded-pill">Invia<i class="bi bi-arrow-right"></i></a>
+        <form action="https://formsubmit.co/jacopo.merlino@istitutoberetta.edu.it" method="POST"></form>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8 col-xl-6">
+                <h2 class="fw-bold mb-6">Contattaci per ottenere maggiori informazioni sui nostri prodotti</h2>
+                <input type="hidden" name="_subject" value="Nuovo messaggio dal sito Web">
+                <input type="text" name="_honey" style="display:none" method="POST">
+                <input type="hidden" name="_captcha" value="false" method="POST">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="yourName" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="yourName" placeholder="Nome" required="required" method="POST">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="yourSurname" class="form-label">Cognome</label>
+                    <input type="text" class="form-control" id="yourCompany" placeholder="Cognome" required="required" method="POST">
+                  </div>
+                  <div class="col-md-12">
+                    <label for="yourMessage" class="form-label">Messaggio</label>
+                    <textarea class="form-control" id="yourMessage" rows="3" placeholder="Scrivi qui il tuo messaggio..." required="required" method="POST"></textarea>
+                  </div>
+                  <div class="col-md-8 mt-4">
+                    <a href="" class="btn btn-lg btn-primary btn-with-icon rounded-pill">Invia<i class="bi bi-arrow-right"></i></a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </form>
       </section>
     </section>
 
